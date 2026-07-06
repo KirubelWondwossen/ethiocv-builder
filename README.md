@@ -10,7 +10,6 @@ A modern CV builder for Ethiopian job seekers.
 - Tailwind CSS
 - Supabase
 - Chapa
-- Docker
 
 ## Status
 
