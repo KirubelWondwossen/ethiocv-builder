@@ -1,8 +1,17 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Builder from "./pages/Builder";
+import Payment from "./pages/Payment";
+import Download from "./pages/Download";
+
 function App() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-slate-100">
-      <h1 className="text-5xl font-bold text-emerald-600">EthioCV Builder</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/builder" element={<Builder />} />
+      <Route path="/home" element={<Payment />} />
+      <Route path="/download" element={<Download />} />
+    </Routes>
   );
 }
 
