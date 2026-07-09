@@ -1,12 +1,10 @@
 import { MoveRight } from "lucide-react";
 import Button from "../ui/Button";
+import Section from "../ui/Section";
 
 function Hero() {
   return (
-    <section
-      id="hero"
-      className="min-h-screen flex items-center px-6 md:px-12 lg:px-20 py-24 md:py-0"
-    >
+    <Section sectionId="hero" className={"items-center"}>
       <div className="w-full max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12 md:gap-8">
         <div className="w-full md:w-1/2 flex flex-col items-start text-left gap-5">
           <span className="text-sm font-medium text-primary-600 bg-primary-50 px-3 py-1 rounded-full">
@@ -39,7 +37,7 @@ function Hero() {
           <div className="absolute inset-x-0 bottom-0 h-1/3 bg-linear-to-t from-white/70 via-white/20 to-transparent" />
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
 

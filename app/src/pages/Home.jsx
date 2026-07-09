@@ -1,3 +1,4 @@
+import Features from "../components/features/Features";
 import Hero from "../components/features/Hero";
 import Navbar from "../components/layouts/Navbar";
 
@@ -12,6 +13,7 @@ function Home() {
 
       <main className="mx-auto w-full px-3 py-8 sm:px-6 lg:px-6">
         <Hero />
+        <Features />
       </main>
     </div>
   );
