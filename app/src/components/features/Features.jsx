@@ -7,6 +7,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import Section from "../ui/Section";
+import SectionHeader from "../ui/SectionHeader";
 
 const features = [
   {
@@ -61,9 +62,9 @@ function Features() {
           Features
         </span>
 
-        <h2 className="text-gray-800 font-bold text-2xl sm:text-3xl mt-3 mb-3 max-w-2xl">
+        <SectionHeader className="text-gray-800 font-bold text-2xl sm:text-3xl mt-3 mb-3 max-w-2xl">
           Everything you need to create a professional CV
-        </h2>
+        </SectionHeader>
 
         <h3 className="text-gray-600 font-sans font-medium text-base sm:text-xl leading-relaxed max-w-xl mb-10 sm:mb-12">
           Designed for Ethiopian job seekers with bilingual support,
