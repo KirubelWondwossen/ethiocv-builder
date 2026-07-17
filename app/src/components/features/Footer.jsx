@@ -29,7 +29,7 @@ const footerLinks = [
 
 function Footer() {
   return (
-    <footer className="w-full border-t border-gray-200 mt-16">
+    <footer className="w-full border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-12">
         <div className="flex flex-col gap-4 pb-8">
           <Logo />
