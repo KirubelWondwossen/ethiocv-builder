@@ -4,7 +4,7 @@ import { TemplatesSection } from "../ui/TemplateCards";
 
 function TemplateShowCase() {
   return (
-    <Section className="mt-8 px-6 md:px-12 lg:px-20">
+    <Section className="mt-8 px-6 md:px-12 lg:px-20" sectionId={"templates"}>
       <div className="w-full flex flex-col items-center text-center">
         <span className="text-sm font-semibold text-primary-600 bg-primary-100 px-3 py-1 rounded-full">
           Templates
