@@ -1,4 +1,5 @@
 import Features from "../components/features/Features";
+import Footer from "../components/features/Footer";
 import Hero from "../components/features/Hero";
 import Pricing from "../components/features/Pricing";
 import TemplateShowCase from "../components/features/TemplateShowCase";
@@ -20,6 +21,7 @@ function Home() {
         <TemplateShowCase />
         <Pricing />
       </main>
+      <Footer />
     </MainContainer>
   );
 }
