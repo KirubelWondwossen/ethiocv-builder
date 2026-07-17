@@ -7,7 +7,6 @@ const navLinks = [
   { text: "CV Templates", link: "#templates" },
   { text: "How it works", link: "#how-it-works" },
   { text: "Pricing", link: "#pricing" },
-  { text: "FAQ", link: "#faq" },
 ];
 
 function Navbar() {
