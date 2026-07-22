@@ -1,6 +1,7 @@
 import Logo from "../ui/Logo";
 
 import { useState } from "react";
+import { NavBtns } from "../ui/NavBtns";
 
 const navLinks = [
   { text: "Features", link: "#features" },
@@ -17,7 +18,7 @@ function Navbar() {
       aria-label="Main"
       className="relative flex h-13 w-full items-center gap-3 rounded-full bg-white px-4 py-0.5 font-sans shadow-sm"
     >
-      <Logo />
+      <Logo link={"/"} />
 
       {/* Desktop links */}
       <div className="hidden flex-1 items-center justify-center gap-1 md:flex">
@@ -105,18 +106,6 @@ function Navbar() {
         </div>
       )}
     </nav>
-  );
-}
-
-function NavBtns({ link, children, onClick }) {
-  return (
-    <a
-      href={link}
-      onClick={onClick}
-      className="rounded-full px-3 py-1.5 text-sm md:text-lg text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
-    >
-      {children}
-    </a>
   );
 }
 

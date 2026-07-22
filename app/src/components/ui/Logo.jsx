@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-function Logo() {
+function Logo({ link }) {
   return (
     <Link
-      to="/"
+      to={link}
       className="group inline-flex items-center gap-2 sm:gap-2.5 select-none"
     >
       <svg
